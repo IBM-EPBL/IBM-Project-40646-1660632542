@@ -1,0 +1,36 @@
+<Html>  
+<head>   
+<title>  
+Registration Page  
+</title>  
+</head>  
+<body bgcolor="Lightskyblue">  
+<br>  
+<br>  
+<form>  
+  
+<label> name </label>         
+<input type="text" name="name" size="15"/> <br> <br>  
+
+<label>  
+qualification:
+</label>
+<input type="text" name="qualification" />  
+  
+<br>  
+<br>  
+<label>
+Age:
+</label>
+<input type="text" name="age" value ="age"/>
+<br><br>
+<label> 
+Email:   
+</label>     
+<br> <br>  
+<input type="email" id="email" name="email"/> <br>    
+<br> <br>   
+<input type="button" value="Submit"/>  
+</form>  
+</body>  
+</html>
