@@ -1,0 +1,25 @@
+body{
+    background-color:azure;
+}
+
+#container{
+    background-color: white;
+    max-width: 30%;
+    margin-left: 35%;
+    margin-top: 7%;
+    padding: 1%;
+    border: radius 20px;
+}
+.back{
+   background-color: white;
+}
+.errMsg{
+   color: red !important;
+}
+.product{
+   height: 50%;
+}
+.cardContainer{
+   max-width: 100%;
+   margin: 2%;
+}n
