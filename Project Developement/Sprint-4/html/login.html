@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+
+    <!-- bootstrap link begins -->
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <!-- bootstrap link ends -->
+
+    <link href="style.css" rel="stylesheet">
+</head>
+   <body>
+  <div class="back">
+    <!-- nav bar code begins -->
+    <nav class="navbar bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="ims.jpg" width="46px" height"40px" alt="homepage" class="dark-logo" />
+          <img src="logo-text.jpg" alt="homepage" class="dark-logo" />
+        </a>
+      </div>
+    </nav>
+     <!-- nav bar code ends -->
+
+    <!-- hero beings -->
+    <div class="container my-5">
+      <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+          <h1 class="display-4 fw-bold lh-1">Welcome to Inventory Assistant!!</h1>
+          
+        </div>
+        <div class="col-md-10 mx-auto col-lg-5">
+          <form class="p-4 p-md-5 border rounded-3 bg-light" action="/login" method="post">
+            <div class="form-floating mb-3">
+              <input name="email" type="email" class="form-control" id="floatingInput" placeholder="">
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input name="pwd" type="password" class="form-control" id="floatingPassword" placeholder="">
+              <label for="floatingPassword">Password</label>
+            </div>
+            <div class="errMsg">
+              <p class="text-muted errMsg">
+                New User <a href="register.html" style="text-decoration:none ;">REGISTER</a>
+              </p>
+            </div>
+            <a href="Dashboard.html" class="btn btn-primary btn-rounded waves-effect waves-light m-b-40 text-white">Login</a>
+            <hr class="my-4">
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- hero ends -->
+    <!-- footer begins -->
+   
+        <footer>
+        <p class="text-center text-muted">All rights reserved by AKGK.SMIT, Inc</p>
+      </footer>
+    </div>
+    <!-- footer ends -->
+
+  </div>
+</body>
+</html>

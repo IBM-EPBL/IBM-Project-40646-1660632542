@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords"
+        content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, Flexy lite admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, Flexy admin lite design, Flexy admin lite dashboard bootstrap 5 dashboard template">
+    <meta name="description"
+        content="plate, inpired from Bootstrap Framework">
+    <meta name="robots" content="noindex,nofollow">
+    <title>View Inventory</title>
+    <link rel="canonical" href="https://www.wrappixel.com/templates/Flexy-admin-lite/" />
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <!-- Custom CSS -->
+    <link href="../dist/css/style.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="lds-ripple">
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full"
+        data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar" data-navbarbg="skin6">
+            <nav class="navbar top-navbar navbar-expand-md navbar-light">
+                <div class="navbar-header" data-logobg="skin6">
+                    <!-- ============================================================== -->
+                    <!-- Logo -->
+                    <!-- ============================================================== -->
+                    <a class="navbar-brand" href="index.html">
+                        <!-- Logo icon -->
+                        <b class="logo-icon">
+                            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                            <!-- Dark Logo icon -->
+                            <img src="../assets/images/logo-icon.jpg" width="40px" height="40px" alt="homepage" class="dark-logo" />
+                            <!-- Light Logo icon -->
+                            
+                        </b>
+                        <!--End Logo icon -->
+                        <!-- Logo text -->
+                        <span class="logo-text">
+                            <!-- dark Logo text -->
+                            <img src="../assets/images/logo-text.jpg" alt="homepage" class="dark-logo" />
+                            <!-- Light Logo text -->
+                            <img src="../assets/images/logo-light-text.png" class="light-logo" alt="homepage" />
+                        </span>
+                    </a>
+                    <!-- ============================================================== -->
+                    <!-- End Logo -->
+                    <!-- ============================================================== -->
+                    <!-- This is for the sidebar toggle which is visible on mobile only -->
+                    <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)"><i
+                            class="ti-menu ti-close"></i></a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin5">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav float-start me-auto">
+                        <!-- ============================================================== -->
+                        <!-- Search -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item search-box"> <a class="nav-link waves-effect waves-dark"
+                                href="javascript:void(0)"><i class="mdi mdi-magnify me-1"></i> <span class="font-16">Search</span></a>
+                            <form class="app-search position-absolute">
+                                <input type="text" class="form-control" placeholder="Search &amp; enter"> <a
+                                    class="srh-btn"><i class="mdi mdi-window-close"></i></a>
+                            </form>
+                        </li>
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- Right side toggle and nav items -->
+                    <!-- ============================================================== -->
+                    
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar" data-sidebarbg="skin6">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="Dashboard.html" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span
+                                    class="hide-menu">Dashboard</span></a></li>
+
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="Profile.html" aria-expanded="false"><i
+                                    class="mdi mdi-account-network"></i><span class="hide-menu">Profile</span></a></li>
+
+			<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="View Inventory.html" aria-expanded="false"><i class="mdi mdi-file"></i><span
+                                    class="hide-menu">View Inventory</span></a></li>
+
+			<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="Sales-History.html" aria-expanded="false"><i class="mdi mdi-face"></i><span
+                                    class="hide-menu">Sales History</span></a></li>
+
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="testing.php" aria-expanded="false"><i class="mdi mdi-border-all"></i><span
+                                    class="hide-menu">Update Inventory</span></a></li>
+                        
+                        
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="About.html" aria-expanded="false"><i class="mdi mdi-alert-outline"></i><span
+                                    class="hide-menu">About</span></a></li>
+                        <li class="text-center p-40 upgrade-btn">
+                            <a href="">Refresh</a>
+                        </li>
+                    </ul>
+
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <div class="page-breadcrumb">
+                <div class="row align-items-center">
+                    <div class="col-6">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb mb-0 d-flex align-items-center">
+                              <li class="breadcrumb-item"><a href="Dashboard.html" class="link"><i class="mdi mdi-home-outline fs-4"></i></a></li>
+                              <li class="breadcrumb-item active" aria-current="page">View Inventory</li>
+                            </ol>
+                          </nav>
+                        
+                    </div>
+                    <div class="col-6">
+                        <div class="text-end upgrade-btn">
+                            <a href="">Refresh</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+             <div class="head"><h2 style=text-align:center;>STOCKS OF PRODUCT</h2>
+</div>
+<table class="center" width="80%">
+
+<tr>
+<th>PRODUCT_NAME</th>
+<th>PRODUCT_ID</th>
+<th>QUANTITY_IN_STOCK</th>
+<th>ORDER_PLACED_DATE</th>
+</tr>
+
+<tr>
+<td>India gate basmati rice</td>
+<td>1574AUd</td>
+<td>122</td>
+<td>31-09-2022</td>
+</tr>
+
+<tr>
+<td>fortune besan</td>
+<td>47740HPS</td>
+<td>97</td>
+<td>18-09-2022</td>
+</tr>
+
+    
+<tr>
+<td>elite gram flour</td>
+<td>0984KOV</td>
+<td>124</td>
+<td>26-09-2022</td>
+</tr>
+
+<tr>
+<td>harvest red chilli</td>
+<td>8654GHE</td>
+<td>118</td>
+<td>23-09-2022</td>
+</tr>
+            
+<tr>
+<td>zoff black pepper</td>
+<td>4574VIG</td>
+<td>107</td>
+<td>17-09-2022</td>
+</tr>
+                
+<tr>
+<td>LG Asafoetida powder</td>
+<td>4541SAN</td>
+<td>123</td>
+<td>30-09-2022</td>
+</tr>
+                    
+<tr>
+<td>Moong dal</td>
+<td>8781VAR</td>
+<td>93</td>
+<td>13-09-2022</td>
+</tr>
+
+<tr>
+<td>ponni boiled rice</td>
+<td>9876MAS</td>
+<td>150</td>
+<td>05-09-2022</td>
+</tr>
+                        
+                        
+<tr>
+<td>peanut butter</td>
+<td>0998HJI</td>
+<td>147</td>
+<td>27-09-2022</td>
+</tr>
+            
+<tr>
+<td>brown chana</td>
+<td>6442ASG</td>
+<td>133</td>
+<td>11-09-2022</td>
+</tr>
+            
+<tr>
+<td>NUtrela soya chunks</td>
+<td>8281LOV</td>
+<td>158</td>
+<td>16-09-2022</td>
+</tr>
+
+<tr>
+<td>masoor dal</td>
+<td>2345AUV</td>
+<td>89</td>
+<td>19-09-2022</td>
+</tr>
+
+<tr>
+<td>origo white peas</td>
+<td>8387MNB</td>
+<td>192</td>
+<td>09-09-2022</td>
+</tr>
+
+<tr>
+<td>idli rice</td>
+ <td>8475GZP</td>
+<td>121</td>
+<td>29-09-2022</td>
+</tr>
+
+<tr>
+<td>toor dal</td>
+<td>8765LAO</td>
+<td>173</td>
+<td>12-09-2022</td>
+</tr>
+                
+<tr>
+<td>ayur skin toner</td>
+<td>50DWS279</td>
+<td>110</td>
+<td>20-10-2022</td>
+</tr>
+
+<tr>
+<td>Aashirvaad Atta</td>
+<td>38944CNS</td>
+<td>189</td>
+<td>15-10-2022</td>
+</tr>
+
+<tr>
+<td>organic red rice</td>
+<td>3974AUR</td>
+<td>57</td>
+<td>30-09-2022</td>
+</tr>
+
+<tr>
+<td>lipton green tea</td>
+<td>38943FUH</td>
+<td>194</td>
+<td>12-09-2022</td>
+</tr>
+
+<tr>
+<td>sunland oil</td>
+<td>3849HIR</td>
+<td>189</td>
+<td>13-08-2022</td>
+</tr>
+
+<tr>
+<td>Santoor soap</td>
+<td>3974AUR</td>
+<td>57</td>
+<td>30-09-2022</td>
+</tr>
+
+<tr>
+<td>udhayam urad dal</td>
+<td>DCJ9E9E</td>
+<td>112</td>
+<td>22-10-2022</td>
+</tr>
+
+<tr>
+<td>molsi's zahidi dates</td>
+<td>3974AUR</td>
+<td>57</td>
+<td>30-09-2022</td>
+</tr>
+
+<tr>
+<td>parachute coconut oil</td>
+<td>JBVHFG7655</td>
+<td>90</td>
+<td>08-09-2022</td>
+</tr>
+
+<tr>
+<td>GRB ghee</td>
+<td>7654EDFGH</td>
+<td>165</td>
+<td>18-09-2022</td>
+</tr>
+
+<tr>
+<td>fortune rice bran oil</td>
+<td>3456TF</td>
+<td>151</td>
+<td>11-10-2022</td>
+</tr>
+
+<tr>
+<td>Happilo walnuts</td>
+<td>3974AUR</td>
+<td>57</td>
+<td>30-09-2022</td>
+</tr>
+
+<tr>
+<td>Rin detergent bar</td>
+<td>987YTFHJN</td>
+<td>137</td>
+<td>07-08-2022</td>
+</tr>
+
+<tr>
+<td>pillsbury multigrains</td>
+<td>3974AUR</td>
+<td>57</td>
+<td>30-09-2022</td>
+</tr>
+
+<tr>
+<td>kellogg's chocos fills</td>
+<td>JHT568</td>
+<td>145</td>
+<td>10-10-2022</td>
+</tr>
+
+<tr>
+<td>zoff cumin seeds</td>
+<td>3974AUR</td>
+<td>57</td>
+<td>30-09-2022</td>
+</tr>
+
+<tr>
+<td>ariel matic</td>
+<td>7RGHJJH</td>
+<td>167</td>
+<td>27-09-2022</td>
+</tr>
+
+</table>
+
+<style>
+table,tr,td,th{
+border:2px solid black;
+border-collapse:collapse;
+padding:6px;
+text-align:center;
+}
+table.center{
+margin-left:auto;
+margin-right:auto;
+}
+</style>
+
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <footer class="footer text-center">
+                All Rights Reserved by AKGK.SMIT INC! 
+            </footer>
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../dist/js/app-style-switcher.js"></script>
+    <!--Wave Effects -->
+    <script src="../dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="../dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="../dist/js/custom.js"></script>
+</body>
+
+</html>
